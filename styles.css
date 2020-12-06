@@ -20,6 +20,8 @@ body{
     float: left;
     display: flex;
     justify-content: space-between;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .home {
@@ -77,6 +79,8 @@ body{
 
 .right-side {
     float: right;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo-wrapper {
@@ -91,8 +95,14 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.portfolio-items2-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .portfolio-item-wrapper {
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-img-background{
@@ -128,7 +138,6 @@ body{
 .img-text-wrapper:hover.subtitle {
     font-weight: 600;
     color:  lightseagreen;
-
 }
 
 .img-darken {
@@ -147,6 +156,7 @@ body{
     flex-direction: row;
     flex-basis: 100%;
     flex: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .profile-image-wrapper{
