@@ -1,5 +1,7 @@
 body{
-    margin: 0px;
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .container {
@@ -33,13 +35,12 @@ body{
 }
 
 .resources {
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 .container > .nav-wrapper > .left-side > div {
     margin-right: 20px;
     font-size: 0.9em;
-    
 }
 
 .nav-link-wrapper{
@@ -80,6 +81,13 @@ body{
 .right-side {
     float: right;
     font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.right-side2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
     font-family: 'Oswald', sans-serif;
 }
 
