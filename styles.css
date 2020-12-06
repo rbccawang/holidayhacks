@@ -182,4 +182,13 @@ body{
 } */
 
 
+#chesstwo {
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    transform: translate(-20%, 20%);
+    height: 600px;
+  }
+
+
 
