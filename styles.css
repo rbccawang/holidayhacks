@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    margin-left: 10%;
+}
+
+.about {
+    margin-left: 10%
+}
+
+.resources {
+    margin-left: 10%
+}
+
+.container > .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black
+}
+
+.nav-link-wrapper a:hover {
+    color: black
+}
+
+.two-column-wraper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin-right: 10%;
+}
+
+.right-side {
+    float: right;
+}
+
+.logo-wrapper {
+    background-image: url(images/gambler.jpg);
+    z-index: -1;
+}
+
+/* Portfolio Styles */
+
+.portfolio-items-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+}
+.img-text-wrapper.subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover.subtitle {
+    font-weight: 600;
+    color:  lightseagreen;
+
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.brand {
+    margin-right: 10px;
+}
+    
+/* About Page */
+.column {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+/* .profile-image-wrapper{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.profile-content-wrapper {
+    float: left;
+    width: 50%;
+    padding: 10px;
+} */
+
+
+
